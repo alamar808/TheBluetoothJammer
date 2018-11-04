@@ -21,8 +21,8 @@ An effective Bluetooth interference thus requires an even wider interference sig
 
 A better alternative seems to us jamming by means of own operated Bluetooth networks, since these jammers then utilize the finer distribution of the 2,4GHz volume and the high-frequency channel hopping The basis for this can be ESP32 modules, which is the  successor to the ESP8266 we used in this hack. Among other things, this chip generation is equipped with a Bluetooth module. We suggest to operate multiple device pairs (one master and one slave device each) each in their own bluetoothnetwork (a so-called piconet) while sending random generated data. With a sufficient number of these jammer pairs near a music stream, the chance of data collision increases, and thus the music stream interruption we have achieved. The chance of two small bluetooth networks collide in data is only 1,5%, so several networks in parallel are needed to effectively jam
 
-LINKS :
+LINKS :</br>
 https://github.com/alamar808/TheBluetoothJammer</br>
-http://midas1.e-technik.tu-ilmenau.de/~webkn/Abschlussarbeiten/Studienarbeiten/sta_hildebrandt+Pein.pdf
-https://cdn.rohde-schwarz.com/pws/dl_downloads/dl_application/application_notes/1c108/1C108_0e_Bluetooth_BR_EDR_AFH.pdf
-IEEE COMMUNICATIONS LETTERS, VOL. 7, NO. 8, AUGUST2003 "Refinements to the Packet Error Rate Upper Bound for Bluetooth Networks"
+http://midas1.e-technik.tu-ilmenau.de/~webkn/Abschlussarbeiten/Studienarbeiten/sta_hildebrandt+Pein.pdf</br>
+https://cdn.rohde-schwarz.com/pws/dl_downloads/dl_application/application_notes/1c108/1C108_0e_Bluetooth_BR_EDR_AFH.pdf</br>
+IEEE COMMUNICATIONS LETTERS, VOL. 7, NO. 8, AUGUST2003 "Refinements to the Packet Error Rate Upper Bound for Bluetooth Networks"</br>
