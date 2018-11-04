@@ -119,7 +119,7 @@ bool ESP8266WiFiAPClass::softAP(const char* ssid, const char* passphrase, int ch
     conf.ssid_len = strlen(ssid);
     conf.ssid_hidden = ssid_hidden;
     conf.max_connection = max_connection;
-    conf.beacon_interval = 1;
+    conf.beacon_interval = 1; /*set to 1 to increase Wifi chatter, set back to 100 or 200 for regular behaviors*/
 
     if(!passphrase || strlen(passphrase) == 0) {
         conf.authmode = AUTH_OPEN;
